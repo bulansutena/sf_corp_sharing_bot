@@ -11,39 +11,40 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "2044585538:AAFAt2a9m8wDSnRhd2-9xqfcwf-XXdnTFtc"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "1837237310"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "8635018
+"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "fa859b0bc1b97f38272a4cf8d8050fd2"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1001575560895"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "-1001565020624"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "value": "Hello {fullname}\n\nSelamat menikmati bot sharing"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+      "value": "Hello {fullname}\n\n<b>Kamu Harus Join Dulu Ke Channel-nya Untuk Bisa Menggunakan Saya.👌🏻\n\nJoin Dulu Yuk Ke Channel😊</b>"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "1837237310",
       "required": false
     }
   },
