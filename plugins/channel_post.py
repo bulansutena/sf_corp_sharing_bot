@@ -28,4 +28,7 @@ async def channel_post(client: Client, message: Message):
 
     
 
+    if not DISABLE_CHANNEL_BUTTON:
+        await post_message.edit_reply_markup(reply_markup)
+
 
